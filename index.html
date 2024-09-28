@@ -31,6 +31,7 @@
       }
     }
   </script>
+  <script src="https://kit.fontawesome.com/d121e1d356.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -155,7 +156,7 @@
     <div class="my-40 space-y-6">
       <h2 class="font-semibold text-5xl text-center">Fetured Bikes In This Year</h2>
       <p class="text-center text-red-500">Best bike collection</p>
-      <div class="flex flex-col lg:flex-row gap-16 lg:gap-36 justify-center">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-36 justify-items-center">
         <div><img src="images/feature-bike.png" alt=""></div>
         <div><img src="images/feature-bike.png" alt=""></div>
         <div><img src="images/feature-bike.png" alt=""></div>
@@ -164,45 +165,106 @@
     <!-- latest section -->
     <section>
       <h2 class="font-semibold text-5xl text-center mb-6">Latest News</h2>
-      <div class="flex flex-col lg:flex-row">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-y-5">
+        <!-- card 1 -->
         <div class="card bg-base-100 w-96 shadow-xl">
           <figure>
             <img src="images/latest1.png" alt="Bike" class="pt-5" />
           </figure>
           <div class="card-body">
             <h2 class="card-title">Ducati XDIAVEL S-73</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus
               at.</p>
             <div class="card-actions justify-start">
               <button class="btn bg-bikeprimary text-white">Read More</button>
             </div>
           </div>
         </div>
+        <!-- card 2 -->
         <div class="card bg-base-100 w-96 shadow-xl">
           <figure>
             <img src="images/latest2.png" alt="Bike" class="pt-5" />
           </figure>
           <div class="card-body">
             <h2 class="card-title">Motorcycles & Scooters</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus
               at.</p>
             <div class="card-actions justify-start">
               <button class="btn btn-outline text-bikeprimary">Read More</button>
             </div>
           </div>
         </div>
+        <!-- card 3 -->
         <div class="card bg-base-100 w-96 shadow-xl">
           <figure>
             <img src="images/latest3.png" alt="Bike" class="pt-5" />
           </figure>
           <div class="card-body">
             <h2 class="card-title">2021 Honda CBR500R</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi
+              lectus
               at.</p>
             <div class="card-actions justify-start">
               <button class="btn  btn-outline text-bikeprimary">Read More</button>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+    <!-- clients section -->
+    <section class="my-32">
+      <h2 class="font-semibold text-5xl text-center mb-12">Happy <span class="text-bikeprimary">Clients says</span>
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div class="flex flex-col items-center border-[#DEDEDE] border-2 p-10 space-y-7">
+          <img src="images/user-1.png" alt="">
+          <p class="text-center">Slate helps you see how
+            many more days you need
+            to work to reach your financial
+            goal for the month and year.</p>
+          <div>
+            <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+            <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+            <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+            <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+            <i class="fa-regular fa-star fa-xs" style="color: #FFD43B;"></i>
+          </div>
+          <h4 class="text-xl font-semibold text-blue-500">Regina Miles</h4>
+          <h4 class="text-xl font-semibold">Banker</h4>
+        </div>
+        <div class="flex flex-col items-center border-[#DEDEDE] border-2 p-10 space-y-7">
+          <img src="images/user-2.png" alt="">
+          <p class="text-center">Slate helps you see how
+            many more days you need
+            to work to reach your financial
+            goal for the month and year.</p>
+            <div>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star fa-xs" style="color: #FFD43B;"></i>
+            </div>
+          <h4 class="text-xl font-semibold text-blue-500">Regina Miles</h4>
+          <h4 class="text-xl font-semibold">Banker</h4>
+        </div>
+        <div class="flex flex-col items-center border-[#DEDEDE] border-2 p-10 space-y-7">
+          <img src="images/user-3.png" alt="">
+          <p class="text-center">Slate helps you see how
+            many more days you need
+            to work to reach your financial
+            goal for the month and year.</p>
+            <div>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star fa-xs" style="color: #FFD43B;"></i>
+              <i class="fa-regular fa-star fa-xs" style="color: #FFD43B;"></i>
+            </div>
+          <h4 class="text-xl font-semibold text-blue-500">Regina Miles</h4>
+          <h4 class="text-xl font-semibold">Banker</h4>
         </div>
       </div>
     </section>
